@@ -43,7 +43,7 @@ jobs:
       proposalid: ${{ steps.proposal.outputs.deployment-proposal-id }}
     needs: build
 
-  proposal:
+  details:
     runs-on: ubuntu-latest
     steps:
       - name: Proposal Details
